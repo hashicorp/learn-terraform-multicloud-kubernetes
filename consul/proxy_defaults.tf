@@ -1,4 +1,4 @@
-// /*
+/*
 ## Apply the configuration in main.tf before uncommenting and applying the configuration in this file.
 
 resource "kubernetes_manifest" "eks_proxy_defaults" {
@@ -37,5 +37,4 @@ resource "kubernetes_manifest" "aks_proxy_defaults" {
     }
   }
 }
-// */
-// 
+*/
