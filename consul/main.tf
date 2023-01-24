@@ -48,7 +48,7 @@ resource "helm_release" "consul_dc1" {
   name       = "consul"
   repository = "https://helm.releases.hashicorp.com"
   chart      = "consul"
-  version    = "0.32.1"
+  version    = "1.0.2"
 
   values = [
     file("dc1.yaml")
@@ -119,7 +119,7 @@ resource "helm_release" "consul_dc2" {
   name       = "consul"
   repository = "https://helm.releases.hashicorp.com"
   chart      = "consul"
-  version    = "0.32.1"
+  version    = "1.0.2"
 
   values = [
     file("dc2.yaml")
