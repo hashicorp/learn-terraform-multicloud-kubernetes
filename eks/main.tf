@@ -47,6 +47,7 @@ module "eks" {
   cluster_version = "1.21"
   subnets         = module.vpc.private_subnets
   vpc_id          = module.vpc.vpc_id
+  version         = "15.1.0"
 
   workers_group_defaults = {
     root_volume_type = "gp2"
