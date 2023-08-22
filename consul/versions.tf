@@ -12,7 +12,13 @@ terraform {
       source  = "hashicorp/kubernetes"
       version = "~> 2.22.0"
     }
+    
+    kubernetes-alpha = {
+      source = "hashicorp/kubernetes-alpha"
+      version = "0.5.0"
+    }
   }
   required_version = ">= 0.14"
 }
+
 
